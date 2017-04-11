@@ -1,0 +1,61 @@
+main {
+  margin: auto;
+  text-align: center;
+}
+
+.search-name {
+  font-size: 70px;
+}
+
+.green {
+  color: #98c379;
+}
+
+.blue {
+  color: #56b6c2;
+}
+
+.yellow {
+  color: #c6ad00;
+}
+
+.purple {
+  color: #b400b9;
+}
+
+.red {
+  color: #c62d48;
+}
+
+.search-button {
+  white-space: nowrap;
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 14px;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+  background: #fff;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .025em;
+  color: #7795f8;
+  text-decoration: none;
+  transition: all .15s ease;
+  cursor: pointer;
+}
+
+.search-button:active {
+  color: #555abf;
+  background-color: #f6f9fc;
+  transform: translateY(1px);
+  box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+}
+
+.search-button:hover {
+  color: #7795f8;
+  transform: translateY(-1px);
+  box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
+
+}
